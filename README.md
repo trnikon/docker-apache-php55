@@ -17,14 +17,8 @@ Installed packages
 * libapache2-mod-php5
 * php5-gd
 * php5-mcrypt
-* php5-zip
-* php5-xml
-* php5-iconv
 * php5-curl
-* php5-soap
-* php5-simplexml
-* php5-pdo
-* php5-dom
+* php-soap
 * php5-json
 * php5-ldap
 * php5-mysql
