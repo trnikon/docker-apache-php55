@@ -30,7 +30,8 @@ RUN php5enmod mcrypt
 RUN chown -R www-data:www-data /var/www
 
 RUN echo -e "$(hostname -i)\t$(hostname).localdomain $(hostname)" >> /etc/hosts
-RUN sendmailconfig -y
+RUN sendmailconfig
+#RUN service apache2 restart
 
 EXPOSE 80
 CMD ["/usr/local/bin/setup.sh"]
